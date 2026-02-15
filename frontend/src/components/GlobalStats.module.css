@@ -1,0 +1,79 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+
+.source {
+  font-size: 0.72rem;
+  color: #9ca3af;
+  margin-bottom: 1.25rem;
+}
+
+.loading,
+.error {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.error {
+  color: #ef4444;
+}
+
+/* Stats grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statValue {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.statLabel {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.2rem;
+}
+
+/* Color variants */
+.blue {
+  color: #3b82f6;
+}
+
+.green {
+  color: #16a34a;
+}
+
+.orange {
+  color: #ea580c;
+}
+
+.red {
+  color: #dc2626;
+}
+
+.purple {
+  color: #7c3aed;
+}
